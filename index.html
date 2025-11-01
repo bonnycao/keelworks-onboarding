@@ -14,7 +14,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/keelworks-onboarding.css">
 
-
 </head>
 
 <body>
@@ -46,7 +45,7 @@
     <div class="accordion" id="onb-acc">
       <!-- Section 1 -->
       <div class="acc-item" data-id="account">
-        <input class="acc-toggle" id="acc-account" type="checkbox" checked>
+        <input class="acc-toggle" id="acc-account" type="checkbox">
         <label class="acc-head" for="acc-account">
           <span class="acc-arrow">▶</span>
           <span class="acc-title">Section 1 — Account Setup <span class="req-star">*</span></span>
@@ -54,7 +53,7 @@
         <div class="acc-content">
           <h3>Step 1 — Enable 2‑Step Verification </h3>
           <p>Turn on 2‑step verification to protect your account.</p>
-          <div class="video-wrapper">
+          <div class="video-wrapper" >
           <iframe src="https://www.youtube.com/embed/e3Mph7kqE1E"  title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
             <div class="video-caption">Video: Turn on 2-Step Verification</div>
@@ -236,8 +235,8 @@ What I hope to gain:
     });
   }
 
-  // init: only first open
-  items[0].classList.add('open');
+// init: all collapsed by default
+// items[0].classList.add('open');
 
   toggles.forEach(t=>{
     t.addEventListener('change', ()=> setOpen(t));
