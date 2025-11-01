@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Help YouTube validate the request origin -->
+  <meta name="referrer" content="origin">
+  <!-- (Optional) Very permissive CSP for this test page only -->
+
+  <title>KeelWorks | Volunteer Onboarding</title>
+  <meta name="description" content="Step-by-step onboarding for KeelWorks volunteers: secure account setup, required forms, tools, calendar, resources, and final confirmation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/keelworks-onboarding.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="top">
+      <div class="logo" aria-label="KeelWorks">
+          <img src="images/KeelWorks_logo.png" style="width:150px; height:auto">
+        <!--<strong>KeelWorks Onboarding</strong>
+        <span class="badge" title="Estimated time to complete">~30–45 min</span>
+      </div>
+    <div class="tag">right</div>-->
+    </div>
+  </header>
+
+  <div class="wrap hero">
+    <h1>Welcome to KeelWorks!</h1>
+    <p class="sub">Follow the onboarding steps below to secure your account, connect your tools, and get team-ready. Completing all steps typically takes about 30–45 minutes and is required to receive your offer letter.</p>
+  </div>
+
+  <div class="wrap">
+  <main>
+    <div class="controls">
+        <button class="btn" id="showAll">Show All</button>
+        <button class="btn" id="hideAll">Hide All</button>
+        <span class="spacer" style="flex:0.95"></span>
+        <div class="req-spacer"><span class="req-global">*</span> <span class="req-txt">Required</span></div>
+      </div>
+
+    <div class="accordion" id="onb-acc">
+      <!-- Section 1 -->
+      <div class="acc-item" data-id="account">
+        <input class="acc-toggle" id="acc-account" type="checkbox" checked>
+        <label class="acc-head" for="acc-account">
+          <span class="acc-arrow">▶</span>
+          <span class="acc-title">Section 1 — Account Setup <span class="req-star">*</span></span>
+          </label>
+        <div class="acc-content">
+          <h3>Step 1 — Enable 2‑Step Verification </h3>
+          <p>Turn on 2‑step verification to protect your account.</p>
+          <div class="video-wrapper">
+
+    <iframe width="888" height="501" src="https://www.youtube.com/embed/e3Mph7kqE1E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+
+
+
+            <div class="video-caption">Video: Turn on 2-Step Verification</div>
+
+
+
+          <h3>Step 2 — Add keelworks.org email to your phone </h3>
+          <p>Install Gmail and enable notifications for responsiveness.</p>
+          <div class="video-wrapper"><iframe title="Add Google account on mobile" src="https://www.youtube.com/embed/km7pKLRAgQc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="video-caption">Video: Add a Google account on mobile</div>
+          <h3>Step 3 — Add a profile image </h3>
+          <p>Helps peers recognize your communications.</p>
+          <div class="video-wrapper"><iframe title="Change your Google profile photo" src="https://www.youtube.com/embed/iIcxyDX3heo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="video-caption">Video: Change your Google profile photo</div>
+          <div class="callout"><strong>Offer Letter:</strong> Complete all sections to be eligible.</div>
+        </div>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="acc-item" data-id="data">
+        <input class="acc-toggle" id="acc-data" type="checkbox">
+        <label class="acc-head" for="acc-data">
+          <span class="acc-arrow">▶</span>
+          <span class="acc-title">Section 2 — Welcome & Agreements <span class="req-star">*</span></span>
+          </label>
+        <div class="acc-content">
+          <ul>
+            <li>Complete <strong>Anonymous Diversity Survey</strong> (supports grants).</li>
+            <li>Sign <strong>Employment Confidentiality NDA</strong>.</li>
+            <li>Sign <strong>Personal Data Protection NDA</strong> (read carefully).</li>
+          </ul>
+          <details>
+            <summary>Where do I find these forms?</summary>
+            <p>Find them in the KeelWorks Intranet/Handbook or request links in the Onboarding Support Space.</p>
+          </details>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="acc-item" data-id="tools">
+        <input class="acc-toggle" id="acc-tools" type="checkbox">
+        <label class="acc-head" for="acc-tools">
+          <span class="acc-arrow">▶</span>
+          <span class="acc-title">Section 3 — Tools & Systems <span class="req-star">*</span></span>
+          </label>
+        <div class="acc-content">
+          <h3>GitHub (Conditional)</h3>
+          <p>If you’re joining a coding project, review the GitHub guide first. You’ll be added to repos when assigned.</p>
+          <h3>Save team folders to Drive</h3>
+          <ol>
+            <li><strong>KeelWorks</strong> (shared root)</li>
+            <li><strong>KeelWorks IT</strong> (IT resources)</li>
+          </ol>
+          <div class="video-wrapper"><iframe title="Organize shared folders in Google Drive" src="https://www.youtube.com/embed/LyEyLF-oKSI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="video-caption">Video: Organize shared folders in Google Drive</div>
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="acc-item" data-id="calendar">
+        <input class="acc-toggle" id="acc-calendar" type="checkbox">
+        <label class="acc-head" for="acc-calendar">
+          <span class="acc-arrow">▶</span>
+          <span class="acc-title">Section 4 — Calendar Integration <span class="req-star">*</span></span>
+          </label>
+        <div class="acc-content">
+          <h3>See KeelWorks events in your personal calendar</h3>
+          <ol>
+            <li>Open <strong>KeelWorks Google Calendar</strong> (@keelworks.org).</li>
+            <li>Under <strong>My calendars</strong>, hover your name → <strong>⋮</strong> → <strong>Settings and sharing</strong>.</li>
+            <li>Share with your <strong>personal Gmail</strong> → choose permission → <strong>Send</strong>.</li>
+            <li>Accept the invite from your personal calendar.</li>
+          </ol>
+          <details>
+            <summary>Why this matters</summary>
+            <p>View KeelWorks meetings alongside personal events—no juggling multiple calendars.</p>
+          </details>
+        </div>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="acc-item" data-id="resources">
+        <input class="acc-toggle" id="acc-resources" type="checkbox">
+        <label class="acc-head" for="acc-resources">
+          <span class="acc-arrow">▶</span>
+          <span class="acc-title">Section 5 — Organization Resources <span class="req-star">*</span></span>
+          </label>
+        <div class="acc-content">
+          <h3>Star and bookmark</h3>
+          <ul>
+            <li><strong>KeelWorks Intranet</strong> (star in Drive)</li>
+            <li><strong>KeelWorks Handbook</strong> (star in Drive)</li>
+          </ul>
+          <div class="video-wrapper"><iframe title="Organize shared folders in Google Drive" src="https://www.youtube.com/embed/LyEyLF-oKSI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="video-caption">Video: Organize shared folders in Google Drive</div>
+        </div>
+      </div>
+
+      <!-- Section 6 -->
+      <div class="acc-item" data-id="final">
+        <input class="acc-toggle" id="acc-final" type="checkbox">
+        <label class="acc-head" for="acc-final">
+          <span class="acc-arrow">▶</span>
+          <span class="acc-title">Section 6 — Final Checks & Support <span class="req-star">*</span></span>
+          </label>
+        <div class="acc-content">
+          <h3>Join the Onboarding Support Space</h3>
+          <p><a href="https://chat.google.com/room/AAAAFWQ66X8?cls=6" target="_blank" rel="noopener">Join Onboarding Support ↗</a></p>
+
+          <h3>Onboarding Confirmation – Email Form</h3>
+          <form id="confirmForm" class="email-form" novalidate>
+            <table class="k-table" role="table" aria-label="Onboarding confirmation form">
+              <tr>
+                <th>From <span class="req-star">*</span></th>
+                <td><input type="email" id="fromEmail" required placeholder="you@keelworks.org" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px"></td>
+              </tr>
+              <tr>
+                <th>To <span class="req-star">*</span></th>
+                <td><input type="email" id="toEmail" required placeholder="onboarder@keelworks.org" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px"></td>
+              </tr>
+              <tr>
+                <th>Subject <span class="req-star">*</span></th>
+                <td><input type="text" id="subject" required value="Onboarding Confirmation – [Your Name]" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px"></td>
+              </tr>
+              <tr>
+                <th>Attachment <span class="req-star">*</span></th>
+                <td>
+                  <input type="file" id="attachment" required accept=".pdf,.doc,.docx" style="width:100%">
+                  <div class="video-caption">Upload your resume (PDF/DOC/DOCX).</div>
+                </td>
+              </tr>
+              <tr>
+                <th>Message <span class="req-star">*</span></th>
+                <td>
+<textarea id="message" required rows="8" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px">Introduction:
+Experience/Interest:
+Key Skills:
+What I hope to gain:
+</textarea>
+                </td>
+              </tr>
+            </table>
+            <div style="display:flex;gap:10px;align-items:center;margin-top:10px">
+              <button type="submit" class="btn" id="sendBtn">Send</button>
+              <span class="video-caption">All fields are required. The Send button opens your email app with the details prefilled. Please attach the uploaded resume in your email before sending.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Optional -->
+      <div class="acc-item" data-id="optional">
+        <input class="acc-toggle" id="acc-optional" type="checkbox">
+        <label class="acc-head" for="acc-optional">
+          <span class="acc-arrow">▶</span>
+          <span class="acc-title">Optional — Resume Help & Next Steps</span>
+          <span class="acc-badge">Optional</span>
+        </label>
+        <div class="acc-content">
+          <p>Weekly resume support session (Thurs 4:30pm PT). Templates and guidance available.</p>
+          <ul>
+            <li><strong>Resume Template</strong>: Professional Resume Template</li>
+            <li><strong>Guide</strong>: Professional Resume Guide</li>
+            <li>Contact: <a href="mailto:thomas.garrod@keelworks.org">thomas.garrod@keelworks.org</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+  <script>
+  // Accordion: single-open by default
+  const acc = document.getElementById('onb-acc');
+  const items = [...acc.querySelectorAll('.acc-item')];
+  const toggles = items.map(i=>i.querySelector('.acc-toggle'));
+
+  function setOpen(target){
+    items.forEach(it=>{
+      const t = it.querySelector('.acc-toggle');
+      if(t === target){
+        it.classList.toggle('open', t.checked);
+      }else{
+        t.checked = false; it.classList.remove('open');
+      }
+    });
+  }
+
+  // init: only first open
+  items[0].classList.add('open');
+
+  toggles.forEach(t=>{
+    t.addEventListener('change', ()=> setOpen(t));
+  });
+
+  // Show/Hide all
+  document.getElementById('showAll').addEventListener('click', ()=>{
+    items.forEach(it=>{ const t=it.querySelector('.acc-toggle'); t.checked=true; it.classList.add('open'); });
+  });
+  document.getElementById('hideAll').addEventListener('click', ()=>{
+    items.forEach(it=>{ const t=it.querySelector('.acc-toggle'); t.checked=false; it.classList.remove('open'); });
+  });
+</script>
+<script>
+  // Email form handling – client-side validation + mailto fallback
+  const form = document.getElementById('confirmForm');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      const from = document.getElementById('fromEmail');
+      const to = document.getElementById('toEmail');
+      const subject = document.getElementById('subject');
+      const message = document.getElementById('message');
+      const attach = document.getElementById('attachment');
+
+      if(!from.checkValidity() || !to.checkValidity() || !subject.checkValidity() || !message.checkValidity() || !attach.files.length){
+        alert('Please complete all required fields and upload your resume.');
+        return;
+      }
+
+      // Construct a mailto link (attachments cannot be auto-attached via mailto; user will attach manually)
+      const mailto = `mailto:${encodeURIComponent(to.value)}?subject=${encodeURIComponent(subject.value)}&body=${encodeURIComponent(`From: ${from.value}
+
+${message.value}
+
+(Please see attached resume.)`)}`;
+      window.location.href = mailto;
+    });
+  }
+</script>
+</body>
+</html>
